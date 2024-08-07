@@ -1,0 +1,29 @@
+.flexrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+.checkerboard .row:nth-child(odd) .col-sm-1:nth-child(odd){
+    background-color: white;
+}
+
+.checkerboard .row:nth-child(odd) .col-sm-1:nth-child(even){
+    background-color: black;
+}
+
+.checkerboard .row:nth-child(even) .col-sm-1:nth-child(odd){
+    background-color: black;
+}
+
+.checkerboard .row:nth-child(even) .col-sm-1:nth-child(even){
+    background-color: white;
+
+}
+
+.col-sm-1{
+    max-width: 1em;
+    max-height: 1em;
+}
